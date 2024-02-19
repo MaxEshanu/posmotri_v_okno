@@ -11,14 +11,14 @@ html {
 .page {
   display: flex;
   align-items: center;
+  justify-content: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  padding-left: 30px;
 }
 
 h1,
@@ -69,7 +69,7 @@ fieldset {
 .content {
   display: flex;
   align-items: flex-end;
-  width: 100%;
+  width: 1140px;
   gap: 30px;
 }
 
@@ -96,6 +96,7 @@ fieldset {
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
+  margin-bottom: 5px;
 }
 
 .search-form__textfield {
@@ -148,9 +149,8 @@ fieldset {
 .content__list {
   height: 298px;
   overflow-y: scroll;
-  margin-top: 20px;
+  margin-top: 26px;
   position: relative;
-  scrollbar-width: none;
 }
 
 .content__details {
@@ -159,7 +159,7 @@ fieldset {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
@@ -206,7 +206,7 @@ fieldset {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
@@ -214,7 +214,7 @@ fieldset {
 }
 
 .content__video-card-description {
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
@@ -222,17 +222,9 @@ fieldset {
 
 .result__video-container {
   position: relative;
+  height: 386px;
   inline-size: 711px;
-  margin: 0 0 11px;
-}
-
-.cards-list-item-template {
-  display: flex;
-  width: 394px;
-}
-
-.content__list::-webkit-scrollbar {
-  display: none;
+  margin-bottom: 16px;
 }
 
 .content__list-item:not(:last-child) {
@@ -242,7 +234,7 @@ fieldset {
 .button {
   border: 1px solid #FFF;
   color: #FFF;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
